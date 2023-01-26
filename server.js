@@ -1,7 +1,7 @@
-import jsonSerer from 'json-server';
+import jsonServer from 'json-server';
 const server = jsonServer.create();
 const router = jsonServer.router('db.jason');
-const middlewares = jsonSerer.defaults();
+const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3333;
 
 server.use(middlewares);

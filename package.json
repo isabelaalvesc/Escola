@@ -1,7 +1,7 @@
 {
   "name": "hotelaria",
   "version": "1.0.0",
-  "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -12,5 +12,15 @@
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isabelaalvesc/Hotelaria.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isabelaalvesc/Hotelaria/issues"
+  },
+  "homepage": "https://github.com/isabelaalvesc/Hotelaria#readme",
+  "description": ""
 }
