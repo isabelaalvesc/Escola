@@ -1,9 +1,9 @@
 {
-  "name": "hotelaria",
+  "name": "escola",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
-  "scripts": {
+   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,11 +16,11 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isabelaalvesc/Hotelaria.git"
+    "url": "git+https://github.com/isabelaalvesc/Escola.git"
   },
   "bugs": {
-    "url": "https://github.com/isabelaalvesc/Hotelaria/issues"
+    "url": "https://github.com/isabelaalvesc/Escola/issues"
   },
-  "homepage": "https://github.com/isabelaalvesc/Hotelaria#readme",
+  "homepage": "https://github.com/isabelaalvesc/Escola#readme",
   "description": ""
 }
