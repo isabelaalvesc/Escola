@@ -1,29 +1,325 @@
 {
   "alunos": [
     {
-      "nome": "lucas santos",
-      "cpf": "123.131.313-13",
-      "dataNascimento": "12/31/2312",
-      "matricula": "K538",
+      "nome": "Maria carla",
+      "cpf": "123.456.789-99",
+      "dataNascimento": "19/04/1977",
+      "matricula": "B456",
       "turma": false,
-      "id": 2
+      "id": 1
+    },
+    {
+      "nome": "Pedro Martins",
+      "dataNascimento": "00/00/0000",
+      "cpf": "123.456.789-00",
+      "matricula": "C789",
+      "turma": false,
+      "id": 3
+    },
+    {
+      "nome": "Ana Paula",
+      "cpf": "123.456.789-99",
+      "dataNascimento": "16/04/1997",
+      "matricula": "D321",
+      "turma": false,
+      "id": 4
+    },
+    {
+      "nome": "Rafael Ferreira",
+      "cpf": "123.456.789-00",
+      "dataNascimento": "00/00/0000",
+      "matricula": "E654",
+      "turma": 1002,
+      "id": 5
+    },
+    {
+      "nome": "Juliana Santos",
+      "dataNascimento": "00/00/0000",
+      "matricula": "F987",
+      "turma": 1002,
+      "id": 6
+    },
+    {
+      "nome": "Lucas Oliveira",
+      "cpf": "123.456.789-00",
+      "dataNascimento": "00/00/0000",
+      "matricula": "G246",
+      "turma": 1002,
+      "id": 7
+    },
+    {
+      "id": 8,
+      "cpf": "123.456.789-00",
+      "nome": "Fernanda Rodrigues",
+      "matricula": "H753",
+      "turma": 1003,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 9,
+      "nome": "Gabriel Gomes",
+      "matricula": "I159",
+      "turma": 1003,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 10,
+      "cpf": "123.456.789-00",
+      "nome": "Ericka Almeida",
+      "matricula": "J753",
+      "turma": 1003,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 11,
+      "nome": "Ricardo Silva",
+      "matricula": "K159",
+      "turma": false,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 12,
+      "cpf": "123.456.789-00",
+      "nome": "Carolina Ferreira",
+      "matricula": "L753",
+      "turma": false,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 13,
+      "nome": "Vinicius Oliveira",
+      "matricula": "M159",
+      "turma": false,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 14,
+      "cpf": "2231231",
+      "nome": "Gabriela Almeida",
+      "matricula": "N753",
+      "turma": false,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 15,
+      "nome": "Luiza Santos",
+      "matricula": "O159",
+      "turma": 1001,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 16,
+      "nome": "Rafaela Gomes",
+      "matricula": "P753",
+      "turma": 1001,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 17,
+      "nome": "Felipe Rodrigues",
+      "matricula": "Q159",
+      "turma": 1001,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 18,
+      "nome": "Aline Oliveira",
+      "matricula": "R753",
+      "turma": 1001,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 19,
+      "nome": "Bruno Almeida",
+      "matricula": "S159",
+      "turma": false,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 20,
+      "nome": "João da Silva",
+      "matricula": "A001",
+      "turma": false,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 22,
+      "nome": "Pedro Oliveira",
+      "matricula": "C003",
+      "turma": false,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 23,
+      "nome": "Ana Carolina",
+      "matricula": "D004",
+      "turma": false,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 24,
+      "nome": "Lucas Rodrigues",
+      "matricula": "E005",
+      "turma": false,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 25,
+      "nome": "Juliana Moreira",
+      "matricula": "F006",
+      "turma": false,
+      "dataNascimento": "00/00/0000"
+    },
+    {
+      "id": 26,
+      "nome": "Rafaela Ferreira",
+      "matricula": "G007",
+      "turma": false,
+      "dataNascimento": "00/00/0000"
     }
   ],
-  "turmas": [],
+  "turmas": [
+    {
+      "turma": 1002,
+      "professor": {
+        "nome": "Marcos Paulo",
+        "cpf": "123.456.789-99",
+        "registro": "1100",
+        "turma": 1002,
+        "id": 2
+      },
+      "serie": 2,
+      "alunos": [
+        {
+          "nome": "Juliana Santos",
+          "dataNascimento": "00/00/0000",
+          "matricula": "F987",
+          "turma": 1002,
+          "id": 6
+        },
+        {
+          "nome": "Rafael Ferreira",
+          "cpf": "123.456.789-00",
+          "dataNascimento": "00/00/0000",
+          "matricula": "E654",
+          "turma": 1002,
+          "id": 5
+        },
+        {
+          "nome": "Lucas Oliveira",
+          "cpf": "123.456.789-00",
+          "dataNascimento": "00/00/0000",
+          "matricula": "G246",
+          "turma": 1002,
+          "id": 7
+        }
+      ],
+      "id": 2
+    },
+    {
+      "turma": 1003,
+      "professor": {
+        "nome": "Maria da Penha",
+        "cpf": "999.888.777-44",
+        "registro": "9987",
+        "turma": 1003,
+        "id": 3
+      },
+      "serie": 3,
+      "alunos": [
+        {
+          "id": 8,
+          "cpf": "123.456.789-00",
+          "nome": "Fernanda Rodrigues",
+          "matricula": "H753",
+          "turma": 1003,
+          "dataNascimento": "00/00/0000"
+        },
+        {
+          "id": 9,
+          "nome": "Gabriel Gomes",
+          "matricula": "I159",
+          "turma": 1003,
+          "dataNascimento": "00/00/0000"
+        },
+        {
+          "id": 10,
+          "cpf": "123.456.789-00",
+          "nome": "Ericka Almeida",
+          "matricula": "J753",
+          "turma": 1003,
+          "dataNascimento": "00/00/0000"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "turma": 1001,
+      "professor": {
+        "nome": "carlos alberto",
+        "cpf": "123.456.789-99",
+        "registro": "123456789",
+        "turma": 1001,
+        "id": 1
+      },
+      "serie": 1,
+      "alunos": [
+        {
+          "nome": "Maria carla",
+          "cpf": "123.456.789-99",
+          "dataNascimento": "19/04/1977",
+          "matricula": "B456",
+          "turma": 1001,
+          "id": 1
+        },
+        {
+          "nome": "Pedro Martins",
+          "dataNascimento": "00/00/0000",
+          "cpf": "123.456.789-00",
+          "matricula": "C789",
+          "turma": 1001,
+          "id": 3
+        },
+        {
+          "nome": "Ana Paula",
+          "cpf": "123.456.789-99",
+          "dataNascimento": "16/04/1997",
+          "matricula": "D321",
+          "turma": 1001,
+          "id": 4
+        }
+      ],
+      "id": 4
+    }
+  ],
   "professores": [
     {
-      "nome": "carlos guilherme",
+      "nome": "carlos alberto",
       "cpf": "123.456.789-99",
       "registro": "123456789",
       "turma": false,
       "id": 1
     },
     {
-      "nome": "carlos alberto",
+      "nome": "Marcos Paulo",
       "cpf": "123.456.789-99",
-      "registro": "123456789",
-      "turma": false,
+      "registro": "1100",
+      "turma": 1002,
       "id": 2
+    },
+    {
+      "nome": "Maria da Penha",
+      "cpf": "999.888.777-44",
+      "registro": "9987",
+      "turma": 1003,
+      "id": 3
+    },
+    {
+      "nome": "Marlon Souza",
+      "cpf": "123.456.789-89",
+      "registro": "1541",
+      "turma": false,
+      "id": 4
     }
   ]
 }
